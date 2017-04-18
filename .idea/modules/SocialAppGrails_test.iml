@@ -121,8 +121,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-databinding:3.2.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sourceforge.cssparser:cssparser:0.9.16" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-encoder:3.2.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sourceforge.cssparser:cssparser:0.9.16" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-gsp:3.2.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.7.RELEASE" level="project" />
@@ -158,8 +158,8 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.9" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.javascript:closure-compiler-unshaded:v20160713" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.javascript:closure-compiler-unshaded:v20160713" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-web-gsp:3.2.8" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-web-databinding:3.2.8" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-web-jsp:3.2.8" level="project" />
@@ -188,8 +188,8 @@
     <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty:jetty-io:9.3.16.v20170120" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.3.16.v20170120" level="project" />
     <orderEntry type="library" name="Gradle: org.json:json:20140107" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.3.16.v20170120" level="project" />
     <orderEntry type="library" name="Gradle: org.gebish:geb-waiting:0.12.2" level="project" />
     <orderEntry type="library" name="Gradle: org.gebish:geb-ast:0.12.2" level="project" />
     <orderEntry type="library" name="Gradle: cglib:cglib-nodep:2.1_3" level="project" />
