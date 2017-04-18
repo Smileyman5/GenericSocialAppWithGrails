@@ -1,0 +1,6 @@
+#Tue, 18 Apr 2017 11:00:14 -0400
+
+info.app.version=0.1
+info.app.name=SocialAppGrails
+grails.env=development
+info.app.grailsVersion=3.2.8
