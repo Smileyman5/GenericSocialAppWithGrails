@@ -22,11 +22,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <div>Stuff!</div>
-                    <span class="icon-bar"></span>
-                    <div>Stuff!</div>
-                    <span class="icon-bar blue-text"></span>
-                    <span class="icon-bar green-text"></span>
                 </button>
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
