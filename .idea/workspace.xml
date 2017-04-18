@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c6c5d88-2b0a-4114-b7dd-f119b8bc007c" name="Default" comment="Updating gitignore file to ignore idea folder and a few other files">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_integrationTest.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___socialappgrails___SocialAppGrails_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___socialappgrails___SocialAppGrails_0_1_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_grails_grails_bootstrap_3_2_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_grails_grails_bootstrap_3_2_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20140107.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20140107.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_test.iml" />
+    <list default="true" id="5c6c5d88-2b0a-4114-b7dd-f119b8bc007c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -1167,7 +1154,7 @@
       <workItem from="1492528543337" duration="519000" />
       <workItem from="1492529120804" duration="201000" />
       <workItem from="1492529363404" duration="71000" />
-      <workItem from="1492529981095" duration="643000" />
+      <workItem from="1492529981095" duration="790000" />
     </task>
     <task id="LOCAL-00001" summary="Updating gitignore file to ignore idea folder and a few other files">
       <created>1492528997314</created>
@@ -1176,11 +1163,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492528997314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updating gitignore file to ignore idea folder and a few other files">
+      <created>1492530685219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492530685219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1434000" />
+    <option name="totallyTimeSpent" value="1581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="180" y="39" width="1400" height="817" extended-state="0" />
