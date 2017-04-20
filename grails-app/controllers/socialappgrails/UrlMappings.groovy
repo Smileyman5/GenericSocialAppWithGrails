@@ -9,8 +9,8 @@ class UrlMappings {
             }
         }
 
-        "/"(controller: "login") {action = [GET:" index", POST: 'login']}
-        "/$username/$password"(controller: "login") {action = [POST: 'login2']}
+        "/"(controller: "login") {action = [GET:" index"]}
+        "/$username/$password"(controller: "login") {action = [POST: 'login']}
         "/stats/$username"(controller: "stats") {action = [POST: "updateStats"]}
         "/profile"(view: "profile.gsp")
         "/friends"(controller: "friends") {action = [POST: "addFriend", PUT: "acceptRequest", DELETE: "declineRequest"]}

@@ -10,13 +10,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/socialappgrails/UrlMappings$__clinit__closure1$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/socialappgrails/UrlMappings$__clinit__closure1$_closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/socialappgrails/UrlMappings$__clinit__closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/socialappgrails/UrlMappings$__clinit__closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/socialappgrails/UrlMappings.class" afterPath="$PROJECT_DIR$/build/classes/main/socialappgrails/UrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___socialappgrails___SocialAppGrails_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___socialappgrails___SocialAppGrails_0_1_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.dependencies" afterPath="$PROJECT_DIR$/build/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/application.yml" afterPath="$PROJECT_DIR$/grails-app/conf/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/socialappgrails/LoginController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/socialappgrails/LoginController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/login/login.gsp" afterPath="$PROJECT_DIR$/grails-app/views/login/login.gsp" />
@@ -109,22 +104,20 @@
       <file leaf-file-name="LoginController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/socialappgrails/LoginController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="36" />
-              <folding>
-                <element signature="e#25#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-398">
+              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/login/login.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+            <state relative-caret-position="166">
+              <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
-                <marker date="1492708307651" expanded="true" signature="1564:1574" ph="..." />
+                <marker date="1492720745814" expanded="true" signature="1564:1574" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,14 +126,14 @@
       <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatsController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatsController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/socialappgrails/StatsController.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -176,52 +169,52 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1492720443249" expanded="true" signature="177302:177319" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177302:177337" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177302:177350" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177302:177365" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177400:180384" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177413:180369" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177467:177889" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177486:177874" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177637:177854" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177677:177820" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177698:177798" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177939:178245" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="177958:178230" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178032:178210" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178072:178176" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178093:178154" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178296:178603" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178315:178588" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178390:178568" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178430:178534" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178451:178512" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178646:178952" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178665:178937" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178739:178917" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178779:178883" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="178800:178861" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179003:179321" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179022:179306" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179108:179286" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179148:179252" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179169:179230" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179356:179662" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179375:179647" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179449:179627" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179489:179593" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179510:179571" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179714:180042" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179733:180027" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179829:180007" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179869:179973" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="179890:179951" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="180090:180355" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="180109:180340" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="180142:180320" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="180182:180286" ph="..." />
-                <marker date="1492720443249" expanded="true" signature="180203:180264" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176553:176570" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176553:176588" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176553:176601" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176553:176616" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176651:179635" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176664:179620" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176718:177140" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176737:177125" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176888:177105" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176928:177071" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="176949:177049" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177190:177496" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177209:177481" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177283:177461" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177323:177427" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177344:177405" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177547:177854" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177566:177839" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177641:177819" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177681:177785" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177702:177763" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177897:178203" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177916:178188" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="177990:178168" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178030:178134" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178051:178112" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178254:178572" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178273:178557" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178359:178537" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178399:178503" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178420:178481" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178607:178913" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178626:178898" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178700:178878" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178740:178844" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178761:178822" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178965:179293" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="178984:179278" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179080:179258" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179120:179224" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179141:179202" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179341:179606" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179360:179591" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179393:179571" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179433:179537" ph="..." />
+                <marker date="1492720784887" expanded="true" signature="179454:179515" ph="..." />
               </folding>
             </state>
           </provider>
@@ -924,13 +917,13 @@
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/myapp.js" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/myapp.css" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/socialappgrails/LoginController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/login/login.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
         <option value="$PROJECT_DIR$/grails-app/models/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/socialappgrails/StatsController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/login/login.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/socialappgrails/LoginController.groovy" />
       </list>
     </option>
   </component>
@@ -941,10 +934,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="47" />
-    <option name="width" value="1400" />
-    <option name="height" value="815" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1281,7 +1274,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="true" />
@@ -1746,7 +1739,7 @@
       <workItem from="1492547121153" duration="2854000" />
       <workItem from="1492628514677" duration="9789000" />
       <workItem from="1492707517534" duration="3341000" />
-      <workItem from="1492718463924" duration="2094000" />
+      <workItem from="1492718463924" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Updating gitignore file to ignore idea folder and a few other files">
       <created>1492528997314</created>
@@ -1783,24 +1776,31 @@
       <option name="project" value="LOCAL" />
       <updated>1492638885859</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Git successful merge! :D">
+      <created>1492720632603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492720632603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23599000" />
+    <option name="totallyTimeSpent" value="23787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="47" width="1400" height="815" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.51119405" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30241936" sideWeight="0.51119405" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1814,7 +1814,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30218977" sideWeight="0.49179104" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17537314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15102828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2305,52 +2305,52 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492720443249" expanded="true" signature="177302:177319" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177302:177337" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177302:177350" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177302:177365" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177400:180384" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177413:180369" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177467:177889" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177486:177874" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177637:177854" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177677:177820" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177698:177798" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177939:178245" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="177958:178230" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178032:178210" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178072:178176" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178093:178154" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178296:178603" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178315:178588" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178390:178568" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178430:178534" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178451:178512" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178646:178952" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178665:178937" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178739:178917" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178779:178883" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="178800:178861" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179003:179321" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179022:179306" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179108:179286" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179148:179252" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179169:179230" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179356:179662" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179375:179647" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179449:179627" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179489:179593" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179510:179571" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179714:180042" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179733:180027" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179829:180007" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179869:179973" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="179890:179951" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="180090:180355" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="180109:180340" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="180142:180320" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="180182:180286" ph="..." />
-            <marker date="1492720443249" expanded="true" signature="180203:180264" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176553:176570" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176553:176588" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176553:176601" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176553:176616" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176651:179635" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176664:179620" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176718:177140" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176737:177125" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176888:177105" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176928:177071" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="176949:177049" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177190:177496" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177209:177481" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177283:177461" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177323:177427" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177344:177405" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177547:177854" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177566:177839" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177641:177819" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177681:177785" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177702:177763" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177897:178203" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177916:178188" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="177990:178168" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178030:178134" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178051:178112" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178254:178572" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178273:178557" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178359:178537" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178399:178503" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178420:178481" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178607:178913" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178626:178898" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178700:178878" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178740:178844" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178761:178822" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178965:179293" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="178984:179278" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179080:179258" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179120:179224" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179141:179202" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179341:179606" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179360:179591" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179393:179571" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179433:179537" ph="..." />
+            <marker date="1492720784887" expanded="true" signature="179454:179515" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2379,14 +2379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/myapp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -2395,23 +2387,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/login/login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-          <folding>
-            <marker date="1492708307651" expanded="true" signature="1564:1574" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/socialappgrails/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="e#25#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-398">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2420,6 +2400,24 @@
         <state relative-caret-position="136">
           <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/socialappgrails/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/login/login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <marker date="1492720745814" expanded="true" signature="1564:1574" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
