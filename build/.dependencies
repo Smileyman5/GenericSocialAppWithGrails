@@ -14,6 +14,7 @@ dependencies:
 - file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/org.grails.plugins/views-json-templates/1.1.6/4b7abb9abfd9c68dd7e892f7d3a7a819ba228668/views-json-templates-1.1.6.jar
 - file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-grails/2.14.1/7c7f7ac5bf6d53d91e9d56c5e7abf52c723730ed/asset-pipeline-grails-2.14.1.jar
 - file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/369b51e2090c4e6714d9d5e42010b6330c2cea26/h2-1.4.193.jar
+- file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.40/ef2a2ceab1735eaaae0b5d1cccf574fb7c6e1c52/mysql-connector-java-5.1.40.jar
 - file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.8/e9e700b0f37f902d930cde33f89726469c4d3a6a/grails-plugin-testing-3.2.8.jar
 - file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.0.2/45b092c0ab8c49eee7be94591566a22f9aedd846/geb-1.0.2.jar
 - file:/C:/Users/JON/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-htmlunit-driver/2.47.1/e4a31a8f8c8a36074a506449c1b476af86de4a58/selenium-htmlunit-driver-2.47.1.jar
