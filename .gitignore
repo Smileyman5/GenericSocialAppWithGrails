@@ -49,3 +49,4 @@ build/
 
 # End of https://www.gitignore.io/api/grails
 0
+/out/
