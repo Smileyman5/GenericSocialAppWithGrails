@@ -14,5 +14,8 @@ class Users {
         username size: 2..64, blank: false, unique: true
         password size: 2..64, blank: false, password: true
         birthday date: true
+        gender validator: {val ->
+            return val == "Male" || val == "Female";
+        }
     }
 }
