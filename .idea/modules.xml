@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SocialAppGrails.iml" filepath="$PROJECT_DIR$/.idea/modules/SocialAppGrails.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SocialAppGrails_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_integrationTest.iml" group="SocialAppGrails" />
+      <module fileurl="file://C:\Users\alex\Coding\CSC435\GenericSocialAppWithGrails\.idea\modules\SocialAppGrails_integrationTest.iml" filepath="C:\Users\alex\Coding\CSC435\GenericSocialAppWithGrails\.idea\modules\SocialAppGrails_integrationTest.iml" group="SocialAppGrails" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SocialAppGrails_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_main.iml" group="SocialAppGrails" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SocialAppGrails_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SocialAppGrails_test.iml" group="SocialAppGrails" />
     </modules>
