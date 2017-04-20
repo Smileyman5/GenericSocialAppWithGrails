@@ -1,7 +1,6 @@
 package socialappgrails
 
 import grails.converters.JSON
-import org.grails.web.json.JSONObject
 
 /**
  * Created by: Jonathan Baker
@@ -20,9 +19,10 @@ class LoginController {
     //in JSON, returns login failed if result['failed'] = true
     //in JSON, returns login succeeds if result['loggedin'] = true
     def login() {
-        JSONObject jsonObject = request.JSON
-        String username = jsonObject.get("username")
-        String password = jsonObject.get("password")
+        String username = params.username
+        String password = params.password
+//        println("Username: " + username)
+//        println("Password: " + password)
 
         def result = [:]
         result['failed'] = false

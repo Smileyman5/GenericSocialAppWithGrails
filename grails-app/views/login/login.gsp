@@ -53,12 +53,8 @@
                         document.getElementById('password').value = ""
                     }
                 };
-                data = {
-                    "username": document.getElementById("username").value,
-                    "password": document.getElementById("password").value
-                }
-                req.open("POST", "http://localhost:8080/", true);
-                req.send(JSON.stringify(data));
+                req.open("POST", "http://localhost:8080/" + document.getElementById("username").value + "/" + document.getElementById("password").value, true);
+                req.send(null);
             }
         }
 
