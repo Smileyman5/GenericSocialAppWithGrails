@@ -21,8 +21,6 @@ class LoginController {
     def login() {
         String username = params.username
         String password = params.password
-//        println("Username: " + username)
-//        println("Password: " + password)
 
         def result = [:]
         result['failed'] = false
@@ -38,8 +36,9 @@ class LoginController {
         render result as JSON
     }
 
+    //private method that checks user's login in database
     def checkLogin(String username, String password) {
-        return false
+        return Users.findByUsernameAndPassword(username, password) != null
     }
 
 }
