@@ -38,6 +38,17 @@
     }
     </style>
     <script>
+        function forgot() {
+            const req = new XMLHttpRequest();
+            req.onreadystatechange = function () {
+                if (req.readyState === 4 && req.status === 200) {
+                    document.getElementById('plabel').className = "active";
+                    document.getElementById('password').value = req.responseText;
+                }
+            };
+            req.open("GET", "http://localhost:8080/" + document.getElementById('username').value, true);
+            req.send(null);
+        }
 //        function login() {
 //            if (document.getElementById("username").value.length > 1 && document.getElementById("password").value.length > 1) {
 //                var req = new XMLHttpRequest();
@@ -101,10 +112,10 @@
                 <div class='row'>
                     <div class='input-field col s12'>
                         <input class='validate' type='password' name='password' id='password' minlength="2" required/>
-                        <label for='password'>Enter your password</label>
+                        <label for='password' id="plabel">Enter your password</label>
                     </div>
                     <label style='float: right;'>
-                        <a class='pink-text' href='#'><b>Forgot Password?</b></a>
+                        <a class='pink-text' href="javascript:forgot()"><b>Forgot Password?</b></a>
                     </label>
                 </div>
 

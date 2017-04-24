@@ -10,6 +10,7 @@ class UrlMappings {
         }
 
         "/"(controller: "login") {action = [GET: "index", POST: "login"]}
+        "/$username"(controller: "login") {action = [GET: "forgotPass"]}
         "/stats/$username"(controller: "login") {action = [POST: "updateStats"]}
         "/profile"(controller: "profile") {action = [GET: "index"]}
         "/profile/settings"(controller: "profile") {action = [GET: "settings"]}

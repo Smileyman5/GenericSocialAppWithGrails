@@ -71,4 +71,15 @@ class LoginController {
         return Users.findByUsernameAndPassword(username, password) != null
     }
 
+    def forgotPass() {
+        def user = params['username'].toString()
+        def pass = [:]
+        if (user.length() < 1)
+            render (pass['pass'] = "", view: 'login', model: ['message': 'Type in your username'])
+        else if (Users.findByUsername(user) == null)
+            render (pass['pass'] = "", view: 'login', model: ['message': 'That user doesn\'t exist'])
+        else
+            render (pass['pass'] = Users.findByUsername(user).password) as JSON
+    }
+
 }

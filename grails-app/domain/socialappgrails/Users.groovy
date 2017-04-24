@@ -1,7 +1,6 @@
 package socialappgrails
 
 class Users {
-
     String username
     String password
     String birthday
@@ -15,7 +14,7 @@ class Users {
         password size: 2..64, blank: false, password: true
         birthday date: true
         gender validator: {val ->
-            return val == "Male" || val == "Female";
+            return val == "Male" || val == "Female"
         }
     }
 }

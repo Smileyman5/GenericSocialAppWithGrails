@@ -50,8 +50,16 @@
 </div>
 
 <!-- Main Content Start -->
-
-<h1>Settings</h1>
+    <g:form resource="${this.Users}" method="PUT">
+        <f:field property="Users.password">
+            <input name="${property}" type="password" placeholder="Change your password."/>
+        </f:field>
+        <f:field property="Users.firstName" widget-placeholder="Change your first name."/>
+        <f:field property="Users.lastName" widget-placeholder="Change your last name."/>
+        <f:field property="Users.gender" widget-placeholder="Change your gender."/>
+        <g:submitButton name="Update"/>
+    </g:form>
+</div>
 
 <!--  Main Content End  -->
 

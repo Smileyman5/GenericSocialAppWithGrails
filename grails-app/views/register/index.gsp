@@ -83,7 +83,7 @@ body {
         </div>
     </div>
     <section class="center">
-        <a class='blue-text' href=""><strong>Login</strong></a>
+        <g:link class='blue-text' controller="login"><strong>Login</strong></g:link>
     </section>
 </body>
 </html>
