@@ -13,25 +13,26 @@ class RegisterController {
     def register() {
         String username = params.username
         String password = params.password
-        String rePassword = params.password
+        String rePassword = params.repassword
 
-        if (!password.equals(rePassword)) {
-            render(status: 500)
+        if (password != rePassword) {
+            return render(status: 500, view: "index.gsp", model: ['message': 'Passwords do not match.'])
         }
 
-        if (Users.findAllByUsernameAndPassword(username, password).isEmpty()) {
-            render(status: 500)
+        if (Users.findByUsername(username) != null) {
+            return render(status: 500, view: "index.gsp", model: ['message': 'Username already exists. :/'])
         }
 
         createUser(username, password)
-        render(status: 200)
+        session["username"] = username
+        render(status: 200, view: "../profile/index.gsp")
     }
 
     def createUser(String username, String password) {
-        Users user = new Users();
-        user.username = username;
-        user.password = password;
-        user.save();
+        Users user = Users.create()
+        user.username = username
+        user.password = password
+        user.save()
     }
 
 }

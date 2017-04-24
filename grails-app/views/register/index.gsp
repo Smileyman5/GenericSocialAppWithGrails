@@ -47,35 +47,43 @@ body {
 
     <div class="container center">
         <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
-            @form(action=routes.RegisterController.register()) {
-            @if(message != ""){
-            <p style='color: red'>@message</p>
-            }
+            <g:form action="register" method="post">
+                <div class='row'>
+                    <div id="message" class='col s12 red-text'>
+                        ${message ?: ""}
+                    </div>
+                </div>
 
-            <div class="row">
-                            <div class='input-field col s12'>
-                @inputText(userForm("Username"))
-            </div>
-            </div>
-            <div class="row">
-                <div class='input-field col s12'>
-                            @inputPassword(userForm("Password"))
+                <div class='row'>
+                    <div class='input-field col s12'>
+                        <input class='validate' type='text' name='username' id='username' minlength="2" required/>
+                        <label for='username'>Enter your username</label>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class='input-field col s12'>
-                            @inputPassword(userForm("RePassword"), '_label -> "Retype Password")
+
+                <div class='row'>
+                    <div class='input-field col s12'>
+                        <input class='validate' type='password' name='password' id='password' minlength="2" required/>
+                        <label for='password'>Enter your password</label>
+                    </div>
                 </div>
-            </div>
-            <div class='row'>
-                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Register</button>
-            </div>
-                }
+
+                <div class='row'>
+                    <div class='input-field col s12'>
+                        <input class='validate' type='password' name='repassword' id='repassword' minlength="2" required/>
+                        <label for='repassword'>Re-enter your password</label>
+                    </div>
+                </div>
+
+                <br />
+                <div class='row'>
+                    <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+                </div>
+            </g:form>
         </div>
     </div>
     <section class="center">
         <a class='blue-text' href=""><strong>Login</strong></a>
     </section>
-    <p>Already have friends here? Search <a href="@routes.SearchController.displayPage">here</a>.</p>
 </body>
 </html>

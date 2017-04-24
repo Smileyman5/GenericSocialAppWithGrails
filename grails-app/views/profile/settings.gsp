@@ -23,8 +23,8 @@
                     </form>
                 </li>
                 <li><a href="${createLink(uri: '/profile')}">Profile</a></li>
-                <li><g:link action="friends">Friends</g:link></li>
-                <li><g:link action='settings'>Settings</g:link></li>
+                <li><g:link controller="profile" action="friends">Friends</g:link></li>
+                <li><g:link controller="profile" action='settings'>Settings</g:link></li>
                 <li><a class="red-text" href="<g:createLink action='index' />">Logout</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
@@ -37,13 +37,13 @@
                         </div>
                     </form>
                 </li>
-                <li><g:link action="friends">Friends</g:link></li>
+                <li><g:link controller="profile" action="friends">Friends</g:link></li>
                 <li><a href="#">Settings</a></li>
                 <li><a href="${createLink(uri: '/')}">Logout</a></li>
             </ul>
             <a href="#" data-activates="slide-out" class="button-collapse right"><i class="material-icons">menu</i></a>
 
-            <a href="${createLink(uri: '/profile')}" class="brand-logo left">Hello, @username!</a>
+            <a href="${createLink(uri: '/profile')}" class="brand-logo left">Hello, ${session['username'] ?: 'default'}!</a>
 
         </div>
     </nav>

@@ -86,8 +86,8 @@
                     </form>
                 </li>
                 <li><a href="#">Profile</a></li>
-                <li><g:link action="friends">Friends</g:link></li>
-                <li><g:link action='settings'>Settings</g:link></li>
+                <li><g:link controller="profile" action="friends">Friends</g:link></li>
+                <li><g:link controller="profile" action='settings'>Settings</g:link></li>
                 <li><a class="red-text" href="<g:createLink action='index' />">Logout</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
@@ -100,13 +100,13 @@
                         </div>
                     </form>
                 </li>
-                <li><g:link action="friends">Friends</g:link></li>
-                <li><g:link action="settings">Settings</g:link></li>
+                <li><g:link controller="profile" action="friends">Friends</g:link></li>
+                <li><g:link controller="profile" action="settings">Settings</g:link></li>
                 <li><a href="${createLink(uri: '/')}">Logout</a></li>
             </ul>
             <a href="#" data-activates="slide-out" class="button-collapse right"><i class="material-icons">menu</i></a>
 
-            <a href="${createLink(uri: '/profile')}" class="brand-logo left">Hello, @username!</a>
+            <g:link controller="profile" action="index" class="brand-logo left">Hello, ${session['username'] ?: 'default'}!</g:link>
 
         </div>
     </nav>
@@ -115,15 +115,15 @@
 <!-- Main Content Start -->
 
 <div class="row">
-    <form class="col s12">
+    <g:form class="col s12" id="postForm" action="post">
         <div class="row">
             <div class="input-field col s12">
-                <a href="javascript:post()" class="btn-floating halfway-fab waves-effect waves-light blue" style="float: right"><i class="material-icons prefix">send</i></a>
-                <textarea id="icon_prefix2" class="materialize-textarea" style="overflow: hidden; padding-right: .5em;"></textarea>
+                %{--<g:link class="btn-floating halfway-fab waves-effect waves-light blue" style="float: right"><i class="material-icons prefix">send</i></g:link>--}%
+                <g:textField id="icon_prefix2" class="materialize-textarea" style="overflow: hidden; padding-right: .5em;" name="comment">Post your thoughts...</g:textField>
                 <label for="icon_prefix2">Message</label>
             </div>
         </div>
-    </form>
+    </g:form>
 </div>
 
 <div id="profilePosts"></div>
