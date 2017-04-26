@@ -10,41 +10,64 @@
             getPosts()
         };
 
+        function getComments(post) {
+            console.log(post);
+            let comments = post['comments'];
+            let html = "";
+            for (index in comments) {
+                html += "               <div style='padding: 0; margin: 0; height: 2px' class='gray divider'></div>" +
+                    "               <div style='padding: 0 0 0 5px; margin: 0; text-align: left'>" + comments[index]['username'] + "</div>\n" +
+                    "               <div style='text-align: left; padding: 0 0 0 20px; font-size:10px'>" + comments[index]['comment'] + "</div>\n ";
+            }
+            return html;
+        }
         function getPosts() {
             let req = new XMLHttpRequest();
             req.onreadystatechange = function() {
-                if (req.readyState == 4 && req.status == 200) {
+                if (req.readyState === 4 && req.status === 200) {
                     let res = JSON.parse(req.responseText);
-                    console.log(res);
-                    console.log(res[0]);
                     document.getElementById('profilePosts').innerHTML = "<br/><br/><div class='container'>" +
                         "   <div class='row'>\n";
-                    for (index in res)
-                        document.getElementById('profilePosts').innerHTML += "   <div class='col s6 m4 z-depth-2'>" +
-                            "           <h5 class='center'>" + res[index].username + "</h5>\n" +
-                            "           <p class='center'>" + res[index].message + "</p>\n" +
+
+                    for (index in res['posts'])
+                        document.getElementById('profilePosts').innerHTML += "   <div style='margin-left: 10%; width: 80%;' class='z-depth-2 center'>" +
+                            "           <img src='https://www.drupal.org/files/profile_default.jpg' alt='' class='circle left' style='padding: 5px 0 0 5px' width='24' height='24'>\n" +
+                            "           <h5 style='padding-left: 32px; margin: 0; text-align: left' class='icon_prefix'>" + res['posts'][index].user + "</h5>\n" +
+                            "               <div style='padding: 0; margin: 0; height: 1px' class='black divider'></div>" +
+                            "           <p class='center'>" + res['posts'][index].msg + "</p>\n" +
+                            "           <p class='bottom' style='font-size: 8px; text-align: right; padding-right: 3px'> Posted at: " + res['posts'][index].timestamp + "</p>\n" +
+                            "               <div style='padding: 0; margin: 0; height: 2px' class='gray divider'></div>" +
+                            '           <g:form class="col s12" controller="posting" action="addCommentOrLike" method="post">'+
+                            '               <div class="input-field col s12 row">' +
+                            '                   <input type="hidden" name="postId" value="' + res['posts'][index].id + '"/>'+
+                            '                   <g:textField id="icon_prefix2" autocomplete="off" spellcheck="on" class="materialize-textarea" style="overflow: hidden; padding-right: .5em; width: 90%" name="comment">Post your thoughts...</g:textField>'+
+                            '                   <label for="icon_prefix2"><i class="tiny material-icons">comment</i>Comment</label>' +
+                            '               </div>'+
+                            '           </g:form>' +
+                            "           <div class='comment' style='inline-block'> " +
+                                        getComments(res['posts'][index]) +
+                            "           </div>\n" +
                             "   </div>\n";
 
                     document.getElementById('profilePosts').innerHTML += "   </div>\n" +
                         "</div>\n";
-
                 }
             };
-            req.open("GET", "http://localhost:9000/posts/all/@username", true);
+            req.open("GET", "http://localhost:8080/profile/post/postForm", true);
             req.send(null);
         }
 
         function search(name, item) {
             let req = new XMLHttpRequest();
             req.onreadystatechange = function() {
-                if (req.readyState == 4 && req.status == 200) {
+                if (req.readyState === 4 && req.status === 200) {
                     let res = JSON.parse(req.responseText);
                     document.getElementsByClassName("search-results").item(item).innerHTML = "";
                     for (index in res)
                         document.getElementsByClassName("search-results").item(item).innerHTML += "<a style='z-index: 5' href='#!'>" + res[index] + "</a>\n"
                 }
             };
-            req.open("GET", "http://localhost:9000/restful/search/" + name, true);
+            req.open("GET", "http://localhost:8080/restful/search/" + name, true);
             req.send(null);
         }
 
@@ -53,14 +76,14 @@
             if (msg.length > 0) {
                 let req = new XMLHttpRequest();
                 req.onreadystatechange = function () {
-                    if (req.readyState == 4 && req.status == 200) {
+                    if (req.readyState === 4 && req.status === 200) {
                         let res = JSON.parse(req.responseText);
                         getPosts()
                     }
                 };
-                req.open("POST", "http://localhost:9000/post", true);
+                req.open("POST", "http://localhost:8080/post", true);
                 let obj = {
-                    "username": "@username",
+                    "username": "${session['username']}",
                     "message": msg
                 };
                 req.send(JSON.stringify(obj));
@@ -70,6 +93,7 @@
     </script>
 </head>
 <body>
+
 <div class="navbar-fixed">
     <nav class="nav-extended">
         <div class="nav-wrapper blue">
@@ -115,11 +139,11 @@
 <!-- Main Content Start -->
 
 <div class="row">
-    <g:form class="col s12" id="postForm" action="post">
+    <g:form class="col s12" id="postForm" controller="profile" action="post" method="post">
         <div class="row">
             <div class="input-field col s12">
                 %{--<g:link class="btn-floating halfway-fab waves-effect waves-light blue" style="float: right"><i class="material-icons prefix">send</i></g:link>--}%
-                <g:textField id="icon_prefix2" class="materialize-textarea" style="overflow: hidden; padding-right: .5em;" name="comment">Post your thoughts...</g:textField>
+                <g:textField id="icon_prefix2" autocomplete="off" spellcheck="on" class="materialize-textarea" style="overflow: hidden; padding-right: .5em;" name="comment">Post your thoughts...</g:textField>
                 <label for="icon_prefix2">Message</label>
             </div>
         </div>

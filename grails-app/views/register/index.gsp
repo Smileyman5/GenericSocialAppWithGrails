@@ -11,14 +11,11 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #fff;
 }
 
 main {
     flex: 1 0 auto;
-}
-
-body {
-    background: #fff;
 }
 
 .input-field input[type=date]:focus + label,
@@ -38,7 +35,6 @@ body {
 </style>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-}
 </head>
 <body>
 <div class="section"></div>
@@ -77,13 +73,13 @@ body {
 
                 <br />
                 <div class='row'>
-                    <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+                    <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Register</button>
                 </div>
             </g:form>
         </div>
     </div>
     <section class="center">
-        <g:link class='blue-text' controller="login"><strong>Login</strong></g:link>
+        <a class='blue-text' href="login"><strong>Login</strong></a>
     </section>
 </body>
 </html>
