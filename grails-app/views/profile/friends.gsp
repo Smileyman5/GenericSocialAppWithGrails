@@ -122,9 +122,7 @@
                     document.getElementById('friend').innerHTML = "";
                     document.getElementById('request').innerHTML = "";
                     document.getElementById('pending').innerHTML = "";
-                    console.log(res.confirmed.length)
-                    console.log(res.pending.length)
-                    console.log(res.requested.length)
+
                     document.getElementById('friend').innerHTML = (res.confirmed.length != 0) ? formatC(res) : "<p class='center blue-text' style='font-size: 24px'>No Friends Yet :/</p>";
                     document.getElementById('pending').innerHTML = (res.requested.length != 0) ? formatR(res) : "<p class='center blue-text' style='font-size: 24px'>No Friend Requests Sent :/</p>";
                     document.getElementById('request').innerHTML = (res.pending.length != 0) ? formatP(res) : "<p class='center blue-text' style='font-size: 24px'>No Friend Requests Yet :/</p>";

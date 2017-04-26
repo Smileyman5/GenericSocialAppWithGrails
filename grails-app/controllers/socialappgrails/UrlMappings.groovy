@@ -12,6 +12,7 @@ class UrlMappings {
         "/"(controller: "login") {action = [GET: "index", POST: "login"]}
         "/stats/$username"(controller: "login") {action = [GET: "getData", POST: "updateStats"]}
         "/profile"(controller: "profile") {action = [GET: "index", PUT: "updateUser"]}
+        "/$username"(controller: "login") {action = [GET: "forgotPass"]}
         "/profile/settings"(controller: "profile") {action = [GET: "settings"]}
         "/profile/friends"(controller: "profile") {action = [GET: "friends"]}
         "/profile/friends/$username"(controller: "profile") {action = [GET: "addFriend", PUT: "confirmFriend", DELETE: "declineFriend"]}
