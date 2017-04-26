@@ -5,6 +5,27 @@
     <title>Profile</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <script>
+        window.onload = function WindowLoad(event) {
+            getUserData();
+        };
+
+        function getUserData() {
+            let req = new XMLHttpRequest();
+            req.onreadystatechange = function() {
+                if (req.readyState === 4 && req.status === 200) {
+                    let res = JSON.parse(req.responseText);
+                    console.log(res);
+                    document.getElementById('Users.firstName').value = res['fname'];
+                    document.getElementById('Users.lastName').value = res['lname'];
+                    document.getElementById('Users.birthday').value = res['bday'];
+                    document.getElementById('Users.gender').value = res['gender'];
+                }
+            };
+            req.open("GET", "http://localhost:8080/stats/${session['username']}", true);
+            req.send(null);
+        }
+    </script>
 </head>
 <body>
 <div class="navbar-fixed">
@@ -50,9 +71,23 @@
 </div>
 
 <!-- Main Content Start -->
+    <div class='row'>
+        <div id="message" class='center col s12 ${color}-text' style="font-size: 24px">
+            ${message ?: ""}
+        </div>
+    </div>
 
-<h1>Settings</h1>
-
+    <g:form name="settingsForm" resource="${this.Users}" controller="profile" method="PUT" class="center-on-small-only" style="margin-left: 25%; width: 50%">
+        <f:field property="Users.password">
+            <input name="${property}" type="password" placeholder="Change your password."/>
+        </f:field>
+        <f:field property="Users.firstName" widget-placeholder="Change your first name."/>
+        <f:field property="Users.lastName" widget-placeholder="Change your last name."/>
+        <label for="Users.birthday">Birthday</label>
+        <input name="Users.birthday" id="Users.birthday" type="date" class="datepicker" property="Users.birthday" form="settingsForm"/>
+        <f:field property="Users.gender" widget-placeholder="Change your gender. (Male/Female)"/>
+        <g:submitButton name="Update"/>
+    </g:form>
 <!--  Main Content End  -->
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>

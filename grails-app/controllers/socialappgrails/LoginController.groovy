@@ -71,4 +71,18 @@ class LoginController {
         return Users.findByUsernameAndPassword(username, password) != null
     }
 
+    def getData() {
+        def username = params['username'].toString()
+        def data = [:]
+        def user = Users.findByUsername(username)
+        if (user != null)
+        {
+            data['fname'] = (user.firstName != null) ? user.firstName : ""
+            data['lname'] = (user.lastName != null) ? user.lastName : ""
+            data['bday'] = (user.birthday != null) ? user.birthday : ""
+            data['gender'] = (user.gender != null) ? user.gender : ""
+        }
+        render data as JSON
+    }
+
 }

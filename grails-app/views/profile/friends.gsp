@@ -5,6 +5,12 @@
     <title>Profile</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <style>
+        .tabs .indicator {
+            background-color: white;
+            height: 5px;
+        }
+    </style>
     <script>
         window.onload = function WindowLoad(event) {
             getProfile();
@@ -14,7 +20,7 @@
         function getRecs() {
             let req = new XMLHttpRequest();
             req.onreadystatechange = function() {
-                if (req.readyState == 4 && req.status == 200) {
+                if (req.readyState === 4 && req.status === 200) {
                     let res = JSON.parse(req.responseText);
                     document.getElementById('friendRec').innerHTML = "<br/><br/><div class='container'>" +
                         "   <div class='row'>\n";
@@ -40,7 +46,7 @@
         function search(name, item) {
             let req = new XMLHttpRequest();
             req.onreadystatechange = function() {
-                if (req.readyState == 4 && req.status == 200) {
+                if (req.readyState === 4 && req.status === 200) {
                     let res = JSON.parse(req.responseText);
                     document.getElementsByClassName("search-results").item(item).innerHTML = "";
                     for (index in res)

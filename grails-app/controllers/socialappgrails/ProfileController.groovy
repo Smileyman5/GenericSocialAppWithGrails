@@ -146,4 +146,20 @@ class ProfileController {
         }
         render jsonArray as JSON
     }
+
+    def updateUser() {
+        def user = Users.findByUsername(session['username'].toString())
+        if (params['Users.password'].toString() != "")
+            user.password = params['Users.password'].toString()
+        user.firstName = params['Users.firstName'].toString()
+        user.lastName = params['Users.lastName'].toString()
+        user.birthday = params['Users.birthday'].toString()
+        user.gender = params['Users.gender'].toString()
+        user.save(flush: true)
+
+        if(!user.validate())
+            render view: "settings", model: ['message': "Failed to update!", 'color': "red"]
+        else
+            render view: "settings", model: ['message': "Updated!", 'color': "green"]
+    }
 }
