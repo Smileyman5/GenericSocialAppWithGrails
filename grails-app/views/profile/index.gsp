@@ -30,7 +30,7 @@
                         "   <div class='row'>\n";
 
                     for (index in res['posts'])
-                        document.getElementById('profilePosts').innerHTML += "   <div style='margin-left: 10%; width: 80%;' class='z-depth-2 center'>" +
+                        document.getElementById('profilePosts').innerHTML += "   <div style='margin-left: 10%; width: 80%; margin-top: 30px' class='z-depth-2 center'>" +
                             "           <img src='https://www.drupal.org/files/profile_default.jpg' alt='' class='circle left' style='padding: 5px 0 0 5px' width='24' height='24'>\n" +
                             "           <h5 style='padding-left: 32px; margin: 0; text-align: left' class='icon_prefix'>" + res['posts'][index].user + "</h5>\n" +
                             "               <div style='padding: 0; margin: 0; height: 1px' class='black divider'></div>" +
@@ -40,7 +40,7 @@
                             '           <g:form class="col s12" controller="posting" action="addCommentOrLike" method="post">'+
                             '               <div class="input-field col s12 row">' +
                             '                   <input type="hidden" name="postId" value="' + res['posts'][index].id + '"/>'+
-                            '                   <g:textField id="icon_prefix2" autocomplete="off" spellcheck="on" class="materialize-textarea" style="overflow: hidden; padding-right: .5em; width: 90%" name="comment">Post your thoughts...</g:textField>'+
+                            '                   <g:textField id="icon_prefix2" autocomplete="off" spellcheck="on" class="materialize-textarea" style="overflow: hidden; padding: 0 .5em 0 0; width: 90%; font-size: 10px" name="comment">Post your thoughts...</g:textField>'+
                             '                   <label for="icon_prefix2"><i class="tiny material-icons">comment</i>Comment</label>' +
                             '               </div>'+
                             '           </g:form>' +
@@ -150,7 +150,7 @@
     </g:form>
 </div>
 
-<div id="profilePosts"></div>
+<div id="profilePosts" style="margin-bottom: 50px"></div>
 
 <!--  Main Content End  -->
 
