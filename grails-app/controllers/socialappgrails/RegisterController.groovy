@@ -29,19 +29,14 @@ class RegisterController {
     }
 
     def createUser(String username, String password) {
-        println("Adding a new user: " + username + " " + password)
         Users user = Users.create()
         user.username = username
         user.password = password
-        user.birthday = "03/16/1995"
-        user.firstName = "Alex"
-        user.lastName = "Man"
-        user.gender = "Male"
-//        user.login = 0
-//        user.id = 4
-//        user.version = 0
+        user.birthday = "01-01-1990"
+        user.firstName = ""
+        user.lastName = ""
+        user.gender = ""
         user.save()
-//        Users u = new Users(username: username, password: password).save()
     }
 
 }
