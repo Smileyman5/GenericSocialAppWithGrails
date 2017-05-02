@@ -46,7 +46,7 @@
                 <li><a href="${createLink(uri: '/profile')}">Profile</a></li>
                 <li><g:link controller="profile" action="friends">Friends</g:link></li>
                 <li><g:link controller="profile" action='settings'>Settings</g:link></li>
-                <li><a class="red-text" href="<g:createLink action='index' />">Logout</a></li>
+                <li><a class="red-text" href="${createLink(uri: '/')}">Logout</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
                 <li>

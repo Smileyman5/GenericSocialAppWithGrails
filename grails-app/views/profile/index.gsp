@@ -17,7 +17,7 @@
             for (index in comments) {
                 html += "               <div style='padding: 0; margin: 0; height: 2px' class='gray divider'></div>" +
                     "               <div style='padding: 0 0 0 5px; margin: 0; text-align: left'>" + comments[index]['username'] + "</div>\n" +
-                    "               <div style='text-align: left; padding: 0 0 0 20px; font-size:10px'>" + comments[index]['comment'] + "</div>\n ";
+                    "               <div style='text-align: left; padding: 0 0 0 20px; font-size:18px'>" + comments[index]['comment'] + "</div>\n ";
             }
             return html;
         }
@@ -40,7 +40,7 @@
                             '           <g:form class="col s12" controller="posting" action="addCommentOrLike" method="post">'+
                             '               <div class="input-field col s12 row">' +
                             '                   <input type="hidden" name="postId" value="' + res['posts'][index].id + '"/>'+
-                            '                   <g:textField id="icon_prefix2" autocomplete="off" spellcheck="on" class="materialize-textarea" style="overflow: hidden; padding: 0 .5em 0 0; width: 90%; font-size: 10px" name="comment">Post your thoughts...</g:textField>'+
+                            '                   <g:textField id="icon_prefix2" autocomplete="off" spellcheck="on" class="materialize-textarea" style="overflow: hidden; padding: 0 .5em 0 0; width: 90%; font-size: 20px" name="comment">Post your thoughts...</g:textField>'+
                             '                   <label for="icon_prefix2"><i class="tiny material-icons">comment</i>Comment</label>' +
                             '               </div>'+
                             '           </g:form>' +
@@ -112,7 +112,7 @@
                 <li><a href="#">Profile</a></li>
                 <li><g:link controller="profile" action="friends">Friends</g:link></li>
                 <li><g:link controller="profile" action='settings'>Settings</g:link></li>
-                <li><a class="red-text" href="<g:createLink action='index' />">Logout</a></li>
+                <li><a class="red-text" href="${createLink(uri: '/')}">Logout</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
                 <li>
